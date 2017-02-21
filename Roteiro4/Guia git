@@ -1,0 +1,30 @@
+~~ Testando programa ~~
+
+- Utilizar "ls" para listar pastas, "cd" para entrar na pasta do programa
+- Com o arquivo cpp lá, utilizar "g++ *nomedoarquivo.cpp -o *nome do executavel"
+- Com o executável criado, ./nome do executável
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~ Principais comando do git ~~~
+- git init
+- git clone <url-repository>
+- git add <arquivos>
+- git commit -m "msg"
+- git push origin master
+- git status (analisa o que tem no repositório, confirma o que você upou lá)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Passo 1: Usar o comando "git" para verificar se está instalado
+	 Caso não esteja instalado, usar "sudo apt-get install git"
+
+
+
+- Utilizar o comando "mkdir *nome da pasta" no terminal para criar uma pasta para o repositório
+- Utilizar o comando "Git Init" dentro da pasta
+- Utilizar "git clone *url do repositório" para baixar a ultima versão do rep. dentro da pasta
+- Para upar os arquivos no repositório utilizar "git add *.cpp"
+	> O *.cpp pega todos os arquivos .cpp e os colocam lá
+-Usar git commit -m "mensagem de descrição"
+	> Provavelmente ele vai pedir para inserir email do usuário e nome para continuar
